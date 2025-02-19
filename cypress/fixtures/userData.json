@@ -7,6 +7,21 @@
   "userFail":{
     "username": "test",
     "password": "test"
-  }
+  },
 
+  "createUserSuccess": {
+    "firstName": "",
+    "lastName": "",
+    "username": "",
+    "password": "test2",
+    "confirmPassword": "test2"
+  },
+
+  "createUserFail":{
+    "firstName": "jojo ",
+    "lastName": "",
+    "username": "",
+    "password": "128",
+    "confirmPassword": "123"
+  }
 }
