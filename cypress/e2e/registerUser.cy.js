@@ -12,14 +12,14 @@ describe ('Registro de novos usuários', () => {
     it('Registra um novo usuário com informações válidas', () => {
         loginPage.accessLoginPage()
         newAccountPage.accessCreateAccount()
-        newAccountPage.createAccountUser(chance.first(), chance.last(),chance.word(), userData.createUserSuccess.password)
+        newAccountPage.createAccountUser(chance.first(), chance.last(),chance.word(), userData.createUserSuccess.password,userData.createUserSuccess.confirmPassword)
         newAccountPage.confirmSignUpButton()
     })
 
     it('Tentar registrar um novo usuário com informações incompletas', () => {
         loginPage.accessLoginPage()
         newAccountPage.accessCreateAccount()
-        newAccountPage.createAccountUser(userData.createUserFail.firstName, chance.last(),chance.word(), userData.createUserFail.password)
+        newAccountPage.createAccountUser(userData.createUserFail.firstName, chance.last(),chance.word(), userData.createUserFail.password, userData.createUserFail.confirmPassword)
         newAccountPage.createAccountFail()
     })
 })

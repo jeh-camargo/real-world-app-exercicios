@@ -9,7 +9,8 @@ class NewAccountPage {
             passwordField: "#password",
             confirmPasswordField: "#confirmPassword",
             signUpButton: "[data-test='signup-submit']",
-            confirmCreateAccountFail: ".SignUpForm-form"
+            signUpButtonAccountFail: ".SignUpForm-form"
+           
          }
          
          return selectors
@@ -19,12 +20,12 @@ class NewAccountPage {
         cy.get(this.selectorsList().createAccountLink).click()
     }
 
-    createAccountUser(firstName, lastName, username, password){
+    createAccountUser(firstName, lastName, username, password,confirmPassword){
         cy.get(this.selectorsList().firstNameField).type(firstName)
         cy.get(this.selectorsList().lastNameField).type(lastName) 
         cy.get(this.selectorsList().usernameField).type(username) 
         cy.get(this.selectorsList().passwordField).type(password)
-        cy.get(this.selectorsList().confirmPasswordField).type(password) 
+        cy.get(this.selectorsList().confirmPasswordField).type(confirmPassword) 
     }
 
     confirmSignUpButton(){
@@ -32,7 +33,7 @@ class NewAccountPage {
     }
     
     createAccountFail(){
-        cy.get(this.selectorsList().confirmCreateAccountFail).contains(/First Name is required| Last Name is required| Username is required|Enter your password|Password must contain at least 4 characters|Confirm your password|Password does not match/).should('exist')
+        cy.get(this.selectorsList().signUpButtonAccountFail).contains(/First Name is required| Last Name is required| Username is required|Enter your password|Password must contain at least 4 characters|Confirm your password|Password does not match/).should('exist')
     }
 }
 

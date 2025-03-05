@@ -18,10 +18,10 @@
   },
 
   "createUserFail":{
-    "firstName": "jojo ",
+    "firstName": "jojo",
     "lastName": "",
-    "username": "",
-    "password": "128",
-    "confirmPassword": "123"
+    "username": "jojo",
+    "password": "1222",
+    "confirmPassword": "128"
   }
 }

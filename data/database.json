@@ -74,94 +74,6 @@
       "balance": 49474,
       "createdAt": "2023-12-07T04:39:38.383Z",
       "modifiedAt": "2024-03-07T00:07:36.510Z"
-    },
-    {
-      "id": "5kfG281hE",
-      "uuid": "4dbd31d9-993f-4010-b97c-a629809a4ca1",
-      "firstName": "Ralph",
-      "lastName": "Sacchi",
-      "username": "be",
-      "password": "$2a$10$zUeqJ/vPLq4mWdByjMyfEe6UcHPPc/TnxOkDiNL7kzESZVinsXsHS",
-      "balance": 0,
-      "createdAt": "2025-02-19T02:04:34.822Z",
-      "modifiedAt": "2025-02-19T02:04:34.822Z"
-    },
-    {
-      "id": "iQ3jmUExT",
-      "uuid": "c1855180-5cdc-40bd-9e93-4fbfcafae6de",
-      "firstName": "Jack",
-      "lastName": "Le GoffGoff",
-      "username": "nuw",
-      "password": "$2a$10$3GUy4NYC7A7clqUUThAy0ug3OzUx/J8o4G0ox.tbx2t1a1IhEHuNa",
-      "balance": 0,
-      "createdAt": "2025-02-19T02:18:29.069Z",
-      "modifiedAt": "2025-02-19T02:18:29.069Z"
-    },
-    {
-      "id": "8mMOKO1R5",
-      "uuid": "1a1b2cc1-d578-4452-9445-cb703915266c",
-      "firstName": "Adelaide",
-      "lastName": "Signorini",
-      "username": "rumozhi",
-      "password": "$2a$10$GJf1E7Raa5pHJnZVcTwbBOAWjlCFhbMbOLT9BaY4qYs21LN.g2jRG",
-      "balance": 0,
-      "createdAt": "2025-02-19T02:31:40.001Z",
-      "modifiedAt": "2025-02-19T02:31:40.001Z"
-    },
-    {
-      "id": "Y8XYV3cuM",
-      "uuid": "6d31475c-808e-468b-b5f3-ea8c5be8fe8f",
-      "firstName": "valter",
-      "lastName": "campos",
-      "username": "vava",
-      "password": "$2a$10$v91v1.KTmejTVo/k.qU4vO0L3ZGrB.hfGhPYkWVjNYiH139HYFJoC",
-      "balance": 0,
-      "createdAt": "2025-02-19T02:45:02.037Z",
-      "modifiedAt": "2025-02-19T02:45:02.037Z"
-    },
-    {
-      "id": "7exeS3Brn",
-      "uuid": "ad87b395-1a8a-4d4a-a73c-dfaab9f17866",
-      "firstName": "Rosa",
-      "lastName": "Santos",
-      "username": "igjomaj",
-      "password": "$2a$10$4MpydIjWBVDz.NPMhcXLvek3Ejz9zdRwr/V78bmT2i.Vi9UYIy0Bi",
-      "balance": 0,
-      "createdAt": "2025-02-19T02:48:43.521Z",
-      "modifiedAt": "2025-02-19T02:48:43.521Z"
-    },
-    {
-      "id": "kP_WDTwzh",
-      "uuid": "62f510ba-9074-47b9-82a5-d94abd4c8a13",
-      "firstName": "Scott",
-      "lastName": "Shimizu",
-      "username": "otuficugu",
-      "password": "$2a$10$SeqLDO.Qs1x1mbJ4Dy2MWe5lY.Ih7ChHQ3Yk8rQQ8.kjCR//gNsbu",
-      "balance": 0,
-      "createdAt": "2025-02-19T03:22:37.915Z",
-      "modifiedAt": "2025-02-19T03:22:37.915Z"
-    },
-    {
-      "id": "WN9Zquu-b",
-      "uuid": "980a8726-f9a6-42fe-8d75-0f7343a0f952",
-      "firstName": "Millie",
-      "lastName": "Castellani",
-      "username": "nidfodpo",
-      "password": "$2a$10$CxPAS.7MO1sNWntzg7NdFOJSi07rvSqJXnQIUGengirF1.zU18CmO",
-      "balance": 0,
-      "createdAt": "2025-02-19T03:44:47.848Z",
-      "modifiedAt": "2025-02-19T03:44:47.848Z"
-    },
-    {
-      "id": "3x1J9DmSP",
-      "uuid": "abf65f1f-0880-450b-add6-4b4ed831dbd7",
-      "firstName": "",
-      "lastName": "Thornton",
-      "username": "mazmo",
-      "password": "$2a$10$KX27/Rwf5FctDftfETkMpO/qvG7zWzbfoUQiTune2Xa5iZpuYumI6",
-      "balance": 0,
-      "createdAt": "2025-02-19T03:45:34.915Z",
-      "modifiedAt": "2025-02-19T03:45:34.915Z"
     }
   ],
   "contacts": [
@@ -341,17 +253,6 @@
       "isDeleted": false,
       "createdAt": "2024-01-26T14:01:01.815Z",
       "modifiedAt": "2024-03-07T08:44:31.174Z"
-    },
-    {
-      "id": "2eAa9OfwN",
-      "uuid": "cd413470-5003-4838-87b5-235fb2202d84",
-      "userId": "iQ3jmUExT",
-      "bankName": "12588996",
-      "accountNumber": "ewtt4788t85",
-      "routingNumber": "445555669",
-      "isDeleted": false,
-      "createdAt": "2025-02-19T02:22:37.246Z",
-      "modifiedAt": "2025-02-19T02:22:37.246Z"
     }
   ],
   "transactions": [
