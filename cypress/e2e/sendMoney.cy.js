@@ -30,7 +30,8 @@ describe('Enviar dinheiro com saldo suficiente', () => {
          transactionPage.selectContact()
          transactionPage.sendInvalidMoney('1800','shopping')
          
-         //bug, sistema aceita transferencia de valor mesmo sem saldo
+         //bug, sistema aceita transferencia de valor mesmo com saldo insuficiente
+         
         });
       });
 
