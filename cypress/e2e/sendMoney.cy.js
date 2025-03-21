@@ -28,7 +28,7 @@ describe('Enviar dinheiro com saldo suficiente', () => {
 
          homeAccountBankPage.newTransaction()
          transactionPage.selectContact()
-         transactionPage.sendInvalidMoney('1800','shopping')
+         transactionPage.sendInvalidMoney('500','shopping')
          
          //bug, sistema aceita transferencia de valor mesmo com saldo insuficiente
          

@@ -6,8 +6,9 @@ class HomeAccountBankPage{
             myAccountUser: "[data-test='sidenav-user-settings']",
             mineHistory:"[href='/personal']",
             confirmTransactionMine: ".MuiListSubheader-root",
-            filterTransactionButton: ".MuiModal-backdrop",
-            filterToday: "('.Cal__Day__today > span')"
+            filterDateTransaction: "[data-test='transaction-list-filter-date-range-button']",
+            filterToday: ".Cal__Day__today",
+            confirmNoTransactions: "[data-test='empty-list-header']"
         }
 
         return selectors
@@ -23,8 +24,9 @@ class HomeAccountBankPage{
     }
 
     userTransactionHistoryWithFilter(){
-        cy.get(this.selectorList().filterTransactionButton).click()
-        cy.get(this.selectorList().filterToday).dblclick()
+        cy.get(this.selectorList().filterDateTransaction).click({force : true})
+        cy.get(this.selectorList().filterToday).dblclick({force: true}).click({force: true})
+        cy.get(this.selectorList().confirmNoTransactions).should('have.text','No Transactions')
     }
 
     userSettings(){
